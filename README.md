@@ -44,9 +44,6 @@ To build this case study, we have some very interesting data from New York Taxi 
 ## Dask Library
 Our data is very large in size. A single “csv” file is of more than 1GB in size, therefore loading all of the data at once using “Pandas” library will take up all of the RAM, and subsequently it will throw memory error. In order to overcome this problem, we are using dask library. Dask library is extremely useful library to use, particularly when we have data size larger than the RAM size. Dask does simple optimizations so that we can operate on data larger than the RAM size. Instead of loading all of the data at once in a RAM, dask load blocks of a file into RAM. It loads only those blocks of file that are required right now. As soon as the processing on the currently loaded block is done, it empties the RAM and load another block of file. This is how dask library is useful in working on data which are very large in size.
 
-## Fields & Features of Data set
-![1_WCooidVBRoFpHrKn3Zor0A](https://user-images.githubusercontent.com/71088477/127752031-ad9ab667-3bbd-411b-89c9-5dc3e6441a26.png)
-
 ## Problem Formulation: Time Series Forecasting
 ### Given a region and a 10 min interval, we have to predict pickups.
 - (a): How to break up the NYC into regions?
