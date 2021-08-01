@@ -1,4 +1,4 @@
-# New York Taxi Demand Forecasting
+# Taxi Demand Forecasting
 ![image](https://user-images.githubusercontent.com/71088477/127751985-a80eafa7-ee49-4524-b169-def9c93875b5.png)
 
 ## Introduction
